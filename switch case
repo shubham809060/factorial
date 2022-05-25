@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Switch {
+    public static void main(String[] args) {
+        int day;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter day no:");
+        day=sc.nextInt();
+        switch(day)
+        {
+            case 1:
+            System.out.println("today is sunday");
+            break;
+            case 2:
+            System.out.println("today is monday");
+            break;
+            case 3:
+            System.out.println("today is tuesday");
+            break;
+        }
+
+    }
+}
