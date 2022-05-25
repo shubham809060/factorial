@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class greatest {
+    public static void main(String args[])
+    {
+        int n1,n2,n3;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter number1:");
+        n1=sc.nextInt();
+        System.out.println("enter number 2:");
+        n2=sc.nextInt();
+        System.out.println("enter number 3:");
+        n3=sc.nextInt();
+        System.out.println("number 1 is:"+n1);
+        System.out.println("number 2 is:"+n2);
+        System.out.println("number 3 is:"+n3);
+        if(n1>n2&& n1>n3)
+        {
+            System.out.println("number n1 is gretest:"+n1);
+
+        }
+        else if(n2>n1&& n2>n3)
+        {
+            System.out.println("number2 is gretest: "+n2);
+
+        }
+        else if(n3>n1&& n3>n1)
+{
+    System.out.println("number 3 is gretest:"+n3);
+}
+        }
+    }
+    
+
